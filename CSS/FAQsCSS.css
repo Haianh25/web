@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+.strong-text{
+    font-weight: 700;
+}
+
+#breadcrump{
+    height: 300px;
+    /* padding: 30px 0; */
+    background: url(../Image/t-shirt.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.breadcrump-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+
+}
+.breadcrump-under-header{
+    position: absolute;
+    top: 0px;
+    padding: 15px;
+    width: 100%;
+    background: #f6f6f6;
+    color: #000000;
+    line-height: 20px;
+}
+#breadcrump a{
+    position: relative;
+    color: #000000;
+    display: inline-block;
+    text-decoration: none;
+}
+.breadcrump-content{
+    position: absolute;
+    top: calc(50% + 25px);
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+}
+.breadcrump-content .breadcrump-big h2{
+    font-size: 24px;
+    color: #fff;
+    padding: 0px;
+    margin: 0px 0px 5px 0px;
+    text-transform: uppercase;
+}
+
+
+#page-container{
+    margin: 30px 0;
+}
+.main-content h1{
+    margin-bottom: 15px;
+}
+.information{
+    margin-bottom: 15px;
+}
+.information-text{
+    margin-bottom: 15px;
+}
+.information-link{
+    color: #000;
+
+}
+
+footer{
+    box-shadow: 0px 0px 7px rgb(0 0 0 / 30%);
+}

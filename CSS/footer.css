@@ -1,0 +1,124 @@
+.footer-left{
+    padding: 20px;
+}
+.footer-info{
+    margin-right: 20px;
+}
+.footer-logo{
+    display: block;
+    margin-bottom: 20px;
+}
+.footer-left .footer-info .image{
+    width: 80px;
+}
+footer .footer-main .footer-left .footer-info > div span, footer .footer-main .footer-left .footer-info > div a {
+    color: #181818;
+}
+.footer-info i{
+    margin-right: 10px;
+}
+.footer-info .footer-address,
+.footer-info .footer-hotline,
+.footer-info .footer-email
+{
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+.footer-main a{
+    text-decoration: none;
+}
+.footer-nav-list{
+    list-style-type: none;
+}
+.footer-nav-list .footer-nav-item{
+    margin-bottom: 10px;
+}
+.footer-nav-list .footer-nav-item .footer-nav-link{
+    color: #181818;
+}
+.footer-menu-pd
+{
+    padding-top: 45px;
+}
+.footer-right-info{
+    background-color: #f6f6f6;
+    padding: 20px;
+    text-align: center;
+}
+.footer-right-info .footer-social{
+    display: inline-block;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 30px;
+}
+.footer-right-info .footer-title{
+    margin-bottom: 15px;
+}
+.footer-right-info .footer-social .list-social-network{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.list-social-network .social-icon{
+    color: #181818;
+    font-size: 36px;
+    margin-right: 10px;
+}
+.footer-subscribe{
+    margin: 0 10px;
+}
+.footer-subscribe input{
+    border: 1px solid #e5e5e5;
+    max-width: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    width: 70%;
+}
+.input-group{
+    position: relative;
+    /* display: table; */
+    border-collapse: separate;
+}
+.input-group-btn{
+    background-color: #000;
+}
+.input-group-btn button{
+    /* padding: 0px 12px; */
+    color: #fff;
+}
+.footer-subscribe .input-group-btn .btn-more-white{
+    background-color: #000;
+    color: #fff;
+}
+.social-icon:hover{
+    opacity: 0.5;
+    transition: 0.4s;
+}
+.btn-more-white{
+    display: inline-block !important;
+    padding: 7px 15px;
+    border: 1px solid;
+    color: #ffffff;
+    margin-top: 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.btn-more-black{
+    display: inline-block !important;
+    padding: 7px 15px;
+    border: 1px solid #000;
+    color: #000;
+    margin-top: 20px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.hover-underline-text{
+    text-decoration: none;
+    /* transition: all 0.2s ease-in-out; */
+}
+.hover-underline-text:hover{
+    text-decoration: underline;
+    color: #000;
+    /* animation: slide-in 400ms ease-in-out; */
+}

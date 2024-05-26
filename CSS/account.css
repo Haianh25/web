@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#breadcrump-wrapper{
+    background-image: url(../Image/t-shirt.webp);
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.breadcrumb-overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: 1;
+}
+
+.breadcrumb-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.breadcrumb-content h2{
+    color: #fff;
+}
+
+#pageContainer {
+    height: max-content;
+    padding: 20px 0;
+    /* background: rgb(223,157,108);
+    background: linear-gradient(90deg, rgba(223,157,108,1) 0%, rgba(159,113,89,1) 100%); */
+    
+}
+
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+    height: 500px;
+    
+}
+
+.login-customer {
+    width: 420px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #fff;
+    border-radius: 1px solid #000;
+}
+
+.login-customer h6 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.customer-header {
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.submit__Btn {
+    margin-top: 20px;
+}
+
+.form-group {
+    
+}
+
+.login-customer .optional {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-customer .optional a {
+    text-decoration: none;
+}
+
+.register-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+    height: 500px;
+}
+
+.register-customer {
+    width: 420px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #fff;
+    border: 0.02px solid #ccc;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.register-customer .optional {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-name {
+    display: flex;
+    justify-content: space-around;
+}
